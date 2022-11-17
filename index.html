@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VANCODERS</title>
+    <link rel="shortcut icon" href="./img/logos/LogoNormal.png" />
+
+    <!--LIBRERIAS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+
+    <!--fuentes===-->
+    <link rel="stylesheet" href="https://use.typekit.net/eko5jwj.css">
+    <script src="https://kit.fontawesome.com/e77fc0ae51.js" crossorigin="anonymous"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-id">
+        <section class="content-nav">
+            <a class="navbar-brand" id="text-id-nav" href="#"><img width="80px"
+                    src="./img/logos/logoBlancoSinBordes.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a id="text-id-nav" class="nav-link" href="#">Nuestros servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="text-id-nav" class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="text-id-nav" class="nav-link" href="#">Valores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="text-id-nav" class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+
+    <!--OLAS-->
+    <section style="margin-bottom: 50px;" class="header">
+        <div class="inner-header flex">
+            <h1 data-aos="fade-right" data-aos-duration="3000" class="title-banner">VANCODERS</h1>
+            <h2 data-aos="fade-right" data-aos-duration="3000" class="slogan-banner">Un mar de soluciones</h2>
+        </div>
+        <section>
+            <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255, 255, 255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255, 255, 255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255, 255, 255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#ffffff" />
+                </g>
+            </svg>
+        </section>
+    </section>
+
+
+
+    <!--nuestro servicios-->
+    <section class="content-general">
+        <p class="title-general">Nuestros servicios</p>
+
+        <div class="content-info-servicio">
+            <span class="content-info-text">
+                Somos Vancoders un equipo de desarrollo web con la certeza que haremos el
+                mejor producto para tu negocio, contamos con una gran experiencia y proyectos. Nuestro estilo de
+                desarrollo es una de las cosas que más tomamos en cuenta para la producción de un producto, usando
+                nuestras metodologías ágiles para el manejo y producción de su proyecto de manera correcta y
+                perfecta.
+            </span>
+        </div>
+
+        <div class="section-de-tarjetas">
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo"><i class="fa-brands fa-html5"></i> </div>
+                    <div class="texto-trasero">HTML</div>
+                </div>
+            </div>
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo"><i class="fa-brands fa-css3-alt"></i> </div>
+                    <div class="texto-trasero">CSS</div>
+                </div>
+            </div>
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo"><i class="fa-brands fa-js"></i> </div>
+                    <div class="texto-trasero">JAVASCRIPT</div>
+                </div>
+            </div>
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo"><i class="fa-brands fa-bootstrap"></i> </div>
+                    <div class="texto-trasero">BOOTSTRAP</div>
+                </div>
+            </div>
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo"><i class="fa-solid fa-database"></i> </div>
+                    <div class="texto-trasero">SQL</div>
+                </div>
+            </div>
+            <div class="caja-content">
+                <div class="card">
+                    <div class="frontral-logo">C#</div>
+                    <div class="texto-trasero">C#</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave-h">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-19.70,110.10 C150.00,149.96 271.49,-49.98 501.74,131.81 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+
+    <!--Sobre nosotros-->
+    <section class="content-general-dos">
+        <p class="title-general-dos">Sobre nosotros</p>
+        <div class="content-info-servicio">
+            <span class="content-info-text-dos">
+                Somos un equipo conformado con 6 personas, listos para hacer tu proyecto realidad. Estamos capacitados
+                en las tecnologías necesarias para la creación de su negocio en la web.
+            </span>
+        </div>
+
+        <hgroup class="equipo-content">
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes/kathy.jpg" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Katherine Segura</p>
+            </div>
+
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Francisco Rodriguez</p>
+            </div>
+        </hgroup>
+
+        <hgroup class="equipo-content">
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes/josue.jpg" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Josué Rivera</p>
+            </div>
+
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Franco Wang</p>
+            </div>
+
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes/Christopher.jpg" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Cristopher Salazar</p>
+            </div>
+
+            <div class="content-info-equipo">
+                <div class="content-img-div">
+                    <img src="./img/integrantes" alt="" class="img-content-img-integrante">
+                </div>
+                <p class="nombre-integrante">Ignacio Molina</p>
+            </div>
+        </hgroup>
+
+    </section>
+
+
+    <div class="wave-h">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,149.96 349.20,-49.98 500.00,49.98 L500.00,149.96 L0.00,149.96 Z"
+                style="stroke: none; fill: rgb(255, 255, 255);">
+            </path>
+        </svg>
+    </div>
+
+    <!--Valores-->
+    <section style="height:85vh;" class="content-general">
+        <p style="" class="title-general">Valores</p>
+
+        <div class="content-valores-div">
+            <hgroup class="content-valores">
+                <p class="content-valor-svg"></p>
+                <div class="content-texts-valores">
+                    <p class="title-valor">Calidad <i class="fa-solid fa-check-to-slot"></i></p>
+                    <span class="parafo-valor">Poner en práctica el esfuerzo, la entrega, la creatividad y el
+                        compañerismo para realizar todo el trabajo de la mejor manera. </span>
+                </div>
+            </hgroup>
+
+            <hgroup class="content-valores">
+                <p class="content-valor-svg"></p>
+                <div class="content-texts-valores">
+                    <p class="title-valor">Compromiso <i class="fa-solid fa-people-group"></i></p>
+                    <span class="parafo-valor">Decisión grupal, que va más allá de cumplir únicamente las obligaciones o
+                        tareas, sino que conduce a la excelencia de todo lo que se hace. </span>
+                </div>
+            </hgroup>
+
+            <hgroup class="content-valores">
+                <p class="content-valor-svg"></p>
+                <div class="content-texts-valores">
+                    <p class="title-valor">Puntualidad <i class="fa-solid fa-clock"></i></p>
+                    <span class="parafo-valor">Valoramos el tiempo de cada uno de los integrantes y por lo tanto
+                        procuramos cuidarlo como el recurso más valioso. </span>
+                </div>
+            </hgroup>
+
+            <hgroup class="content-valores">
+                <p class="content-valor-svg"></p>
+                <div class="content-texts-valores">
+                    <p class="title-valor">Trabajo en equipo <i class="fa-solid fa-people-line"></i></p>
+                    <span class="parafo-valor">Buscamos que las cargas de trabajo sean equitativas y que todos los
+                        integrantes logremos llegar a la meta juntos. No buscamos culpables, pero si buscamos soluciones
+                        y tomamos acciones. </span>
+                </div>
+            </hgroup>
+        </div>
+    </section>
+
+    <div class="wave-h">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-19.70,110.10 C150.00,149.96 271.49,-49.98 501.74,131.81 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none; fill: rgb(255, 255, 255);">
+            </path>
+        </svg>
+    </div>
+    <!--Sobre nosotros-->
+    <section class="content-general-tres">
+        <p class="title-general-dos">Proyectos</p>
+        <div class="content-info-servicio">
+            <span class="content-info-text-dos">
+                Aqui podran ver nuestros proyectos finalizados
+            </span>
+        </div>
+
+        <a target="_blank" href="https://familymedicine.azurewebsites.net/Home/LandingPage">
+            <img class="imgProyectos" src="./img/LogosProyectos/lgoBlanco.png" width="360px" alt="">
+        </a>
+    </section>
+    </section>
+
+    <div class="wave-h">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,149.96 349.20,-49.98 500.00,49.98 L500.00,149.96 L0.00,149.96 Z"
+                style="stroke: none; fill: rgb(255, 255, 255);">
+            </path>
+        </svg>
+    </div>
+
+
+    <main class="main">
+        <div class="container">
+
+            <div></div>
+
+            <section class="wrapper" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <p style="" class="title-general">Contacto</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="fullname" class="span-div-info-banner">Nombre</label>
+                        <input type=" text" id="inputContenido" name="fullname" class="input-field">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tel" class="span-div-info-banner">Telefono</label>
+                        <input type="tel" id="inputContenido" name="tel" class="input-field">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email" class="span-div-info-banner">Correo</label>
+                        <input type="email" id="inputContenido" name="email" class="input-field">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="asunto" class="span-div-info-banner">Asunto</label>
+                        <textarea name="asunto" id="inputContenido" class="input-field" name="" id="" cols="30"
+                            rows="10"></textarea>
+                    </div>
+
+                    <button onclick="myFunction()" type="button" class="input-submit">Enviar</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+
+    <script>
+        function myFunction() {
+            if ($('#inputContenido').val().length == 0) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Validar datos',
+                    text: 'Por favor agregue su Nombre, Telefono, Correo y Asunto',
+                    confirmButtonColor: "#15b8e1",
+                    confirmButtonText: 'Hecho',
+                });
+            }
+        }
+    </script>
+
+    <!-- SCRITPS -->
+    <script>
+        var $root = $('html, body');
+
+        $('a[href^="#"]').click(function () {
+            var href = $.attr(this, 'href');
+
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+
+            return false;
+        });
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
